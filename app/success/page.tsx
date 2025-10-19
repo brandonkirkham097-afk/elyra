@@ -9,8 +9,7 @@ export default function SuccessPage() {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        background:
-          "radial-gradient(circle at 20% 20%, #0a0a0a 0%, #000 100%)",
+        background: "radial-gradient(circle at 20% 20%, #0a0a0a 0%, #000 100%)",
         color: "white",
         textAlign: "center",
         padding: "2rem",
@@ -29,35 +28,22 @@ export default function SuccessPage() {
       >
         Welcome to Elyra Pro
       </h1>
-
-      <p
-        style={{
-          fontSize: "1.3rem",
-          maxWidth: "650px",
-          color: "#ccc",
-          lineHeight: "1.6",
-          marginBottom: "2.5rem",
-        }}
-      >
-        Your journey to building and automating profitable ideas starts now.  
-        Explore your dashboard for personalized profit blueprints and growth tools.
+      <p style={{ fontSize: "1.2rem", color: "#ccc", maxWidth: 640, lineHeight: 1.6 }}>
+        Your tools are unlocked. Head to your dashboard to explore Profit Reports,
+        Launch Blueprints, and Automations.
       </p>
-
       <a
-        href="/"
+        href="/dashboard"
         style={{
+          marginTop: "2rem",
           background:
             "linear-gradient(90deg,#00ffa3 0%,#00d4ff 50%,#007bff 100%)",
-          borderRadius: "10px",
+          borderRadius: 10,
           color: "#000",
           padding: "0.9rem 2.2rem",
-          fontSize: "1.1rem",
-          fontWeight: 700,
+          fontWeight: 800,
           textDecoration: "none",
-          transition: "transform 0.2s ease",
         }}
-        onMouseOver={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
-        onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1.0)")}
       >
         Enter Dashboard →
       </a>
